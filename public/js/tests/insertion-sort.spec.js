@@ -1,7 +1,7 @@
-describe('Function exists', function () {
+describe('insertionSort', function () {
 
-  it('should do something', function () {
+  it('should be a function', function () {
 
-    expect(aFunc).to.exist;
+    expect(insertionSort).to.be.a('function');
   })
 })
